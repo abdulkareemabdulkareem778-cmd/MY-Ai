@@ -23,7 +23,7 @@ export default function ChatBot() {
       console.error(err);
       setMessages([
         ...newMessages,
-        { role: "assistant", content: "Hi! i'm Salam salam, your Ai assitant" },
+        { role: "assistant", content: "error" },
       ]);
     }
   }
