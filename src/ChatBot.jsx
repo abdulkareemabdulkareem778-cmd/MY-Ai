@@ -49,7 +49,7 @@ export default function ChatBot() {
         onKeyDown={(e) => e.key === "Enter" && handleSend()}
       />
       <button
-        onClick={handleSend}
+        onClick={ElementInternals}
         className="bg-blue-500 text-white px-4 py-2 rounded mt-2"
       >
         Send
